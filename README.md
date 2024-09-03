@@ -1,47 +1,65 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native To-Do List App
 
-# Getting Started
+This is a simple to-do list app built with React Native. The app allows users to add tasks, view them in a list, and mark them as complete by tapping on them.
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- Add new tasks
+- View all tasks for the day
+- Mark tasks as complete by tapping on them (tasks are removed from the list)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Getting Started
 
-To start Metro, run the following command from the _root_ of your React Native project:
+These instructions will help you set up the project locally.
 
-```bash
-# using npm
-npm start
+### Prerequisites
 
-# OR using Yarn
-yarn start
-```
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [React Native CLI](https://reactnative.dev/docs/environment-setup) or [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- Xcode for iOS development (for macOS users)
+- Android Studio for Android development (for Windows/Linux users)
 
-## Step 2: Start your Application
+### Installing
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/merttcetn/toDoApp
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd react-native-todo-app
+   ```
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-### For Android
+### Running the App
 
-````bash
-# using npm
-npm run android
+1. Start the Metro bundler:
+
+   ```bash
+   npx react-native start
+   ```
+
+2. Open a new terminal and run the app on iOS or Android:
+
+   - For iOS (macOS only):
+
+     ```bash
+     npx react-native run-ios
+     ```
 
    - For Android:
      ```bash
      npx react-native run-android
      ```
 
-### For iOS
+   If you're using Expo, run:
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-````
+   ```bash
+   expo start
+   ```
 
 ## Project Structure
 
@@ -50,7 +68,7 @@ yarn ios
 
 ## Screenshots
 
-Now that you have successfully run the app, let's modify it.
+![In App Screenshot](screenshots/screenshot.png)
 
 ## Built With
 

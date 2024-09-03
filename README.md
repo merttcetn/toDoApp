@@ -68,7 +68,7 @@ These instructions will help you set up the project locally.
 
 ## Screenshots
 
-![In App Screenshot](screenshots/screenshot.png)
+![In App Screenshot](screenshot/screenshot.png)
 
 ## Built With
 
